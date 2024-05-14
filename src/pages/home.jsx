@@ -20,6 +20,7 @@ const Home = () => {
     {
         data.map((i) => (
           <CardItem
+            key={i.id}
             id={i.id}
             name={i.name}
             image={i.img_url}
