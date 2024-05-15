@@ -9,7 +9,7 @@ const Home = () => {
         console.log(res.data);
         setData(res.data);
     })
-    },[])
+    },[data])
    
   return (
     <div className="home">
